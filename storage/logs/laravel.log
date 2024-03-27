@@ -1,0 +1,96 @@
+[2024-03-06 04:29:36] local.ERROR: Cannot declare class CreateCommentLikesTable, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class CreateCommentLikesTable, because the name is already in use at C:\\Users\\farre\\sigarda_backend\\database\\migrations\\2024_03_06_042909_create_comments_likes_table.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2024-03-07 01:35:13] local.ERROR: Command "make:migraton" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:migraton\" is not defined.
+
+Did you mean one of these?
+    make:cast
+    make:channel
+    make:command
+    make:component
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:test
+    make:view at C:\\Users\\farre\\sigarda_backend\\vendor\\symfony\\console\\Application.php:737)
+[stacktrace]
+#0 C:\\Users\\farre\\sigarda_backend\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('make:migraton')
+#1 C:\\Users\\farre\\sigarda_backend\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\farre\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\farre\\sigarda_backend\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
+[2024-03-07 01:37:42] local.ERROR: Cannot declare class CreateUserActivityLogsTable, because the name is already in use {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot declare class CreateUserActivityLogsTable, because the name is already in use at C:\\Users\\farre\\sigarda_backend\\database\\migrations\\2024_03_07_013549_create_users_activity_logs_table.php:7)
+[stacktrace]
+#0 {main}
+"} 
+[2024-03-20 06:48:22] local.ERROR: The use statement with non-compound name 'PDO' has no effect {"exception":"[object] (ErrorException(code: 0): The use statement with non-compound name 'PDO' has no effect at C:\\xampp\\htdocs\\sigarda_backend\\database\\migrations\\2024_03_20_064312_create_comment_logs_table.php:6)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'The use stateme...', 'C:\\\\xampp\\\\htdocs...', 6)
+#1 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(149): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'The use stateme...', 'C:\\\\xampp\\\\htdocs...', 6)
+#2 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(149): require_once('C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(150): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(574): Illuminate\\Filesystem\\Filesystem->requireOnce('C:\\\\xampp\\\\htdocs...')
+#5 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(117): Illuminate\\Database\\Migrations\\Migrator->requireFiles(Array)
+#6 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(90): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#7 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#8 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(83): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#9 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#10 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#12 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#13 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#14 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#15 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#16 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#17 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 C:\\xampp\\htdocs\\sigarda_backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\xampp\\htdocs\\sigarda_backend\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 {main}
+"} 
